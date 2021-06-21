@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatting system</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div class="chat-wrapper">
+        <div class="chat-content">
+            <div class="friend-list">
+                <ul id="usersLIst"></ul>
+                <a href="./index.html" id="leave-btn" >
+                    Leave Chat
+                </a>
+            </div>
+            <div class="messenger-panel">
+                <ul id="display"></ul>
+                <div class="input-wrapper">
+                    <input type="text" name="" placeholder="Enter your message" id="messangerInput" class="">
+                    <button id="send-btn">Send &RightArrow;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js" integrity="sha512-eVL5Lb9al9FzgR63gDs1MxcDS2wFu3loYAgjIH0+Hg38tCS8Ag62dwKyH+wzDb+QauDpEZjXbMn11blw8cbTJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.1/qs.min.js" integrity="sha512-aTKlYRb1QfU1jlF3k+aS4AqTpnTXci4R79mkdie/bp6Xm51O5O3ESAYhvg6zoicj/PD6VYY0XrYwsWLcvGiKZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="./Js/jquery3.6.0.min.js"></script>
+    <script src="./Js/qs.min.js"></script>
+    <script src="./Js/socketio.js"></script>
+    <script src="./Js/chat.js"></script>
+</body>
+</html>
